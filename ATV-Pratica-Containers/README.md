@@ -1,4 +1,4 @@
-# WarpX 26.10 — Contêineres e testes
+# WarpX 26.10
 
 ## Receitas e ambiente
 
@@ -96,4 +96,4 @@ As receitas incluem limpeza do cache do APT. A imagem Docker original ainda mant
 
 Os primeiros testes de importação do Docker apresentaram tempos inesperados, acima de três segundos em algumas execuções e próximos de um segundo em outras. Por isso, foram feitas **dez repetições** e utilizada a **mediana**, reduzindo a influência de picos isolados.
 
-Na validação local, **15 testes funcionais** e **100 execuções do benchmark** foram concluídos sem falhas. Os resultados detalhados estão nos CSVs da pasta [`provas/`](provas/).
+Na validação local, **15 testes funcionais** e **100 execuções do benchmark** foram concluídos sem falhas. Os resultados detalhados estão nos CSVs da pasta [`Resultados/`](Resultados/).
