@@ -94,6 +94,8 @@ As receitas incluem limpeza do cache do APT. A imagem Docker original ainda mant
 
 ## Dificuldade encontrada
 
+Durante a criação da receita Apptainer, houve uma confusão inicial com a sintaxe do Dockerfile, sendo necessário adaptar as instruções ao formato `.def`.
+
 Os primeiros testes de importação do Docker apresentaram tempos inesperados, acima de três segundos em algumas execuções e próximos de um segundo em outras. Por isso, foram feitas **dez repetições** e utilizada a **mediana**, reduzindo a influência de picos isolados.
 
 Na validação local, **15 testes funcionais** e **100 execuções do benchmark** foram concluídos sem falhas. Os resultados detalhados estão nos CSVs da pasta [`Resultados/`](Resultados/).
