@@ -10,7 +10,7 @@
 
 As receitas estão versionadas no Git.
 
-As imagens utilizam **Ubuntu 24.04**, **WarpX 26.10**, AMReX, Python/PICMI, OpenMPI, OpenMP, CMake, FFTW e HDF5. A instalação das dependências seguiu a documentação do WarpX, sem fixação individual das versões de todos os pacotes. Por isso, atualizações nos repositórios podem produzir diferenças em futuras reconstruções.
+As imagens utilizam **Ubuntu 24.04**, **WarpX 26.10**, AMReX, Python/PICMI, OpenMPI, OpenMP, CMake, FFTW e HDF5. A instalação das dependências seguiu a documentação do WarpX, sem fixação individual das versões de todos os pacotes.
 
 ## Construção das imagens
 
