@@ -1,0 +1,5 @@
+ambiente,formato,bytes,observacao
+docker,docker,5490836724,virtual descomprimido
+apptainer,sif,1107484672,arquivo comprimido
+hpccm-docker,docker,3921003080,virtual descomprimido
+hpccm-apptainer,sif,1108574208,arquivo comprimido

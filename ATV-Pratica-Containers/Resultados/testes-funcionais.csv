@@ -1,0 +1,16 @@
+ambiente,teste,segundos,status,detalhe
+docker,importacao,0.993852,OK,
+docker,simulacao,1.861845,OK,diagnostico plotfile gerado
+docker,mpi,1.479927,OK,diagnostico plotfile gerado
+apptainer,importacao,0.697167,OK,
+apptainer,simulacao,1.432908,OK,diagnostico plotfile gerado
+apptainer,mpi,1.561330,OK,diagnostico plotfile gerado
+hpccm-docker,importacao,0.813073,OK,
+hpccm-docker,simulacao,1.537173,OK,diagnostico plotfile gerado
+hpccm-docker,mpi,1.302072,OK,diagnostico plotfile gerado
+hpccm-apptainer,importacao,0.660281,OK,
+hpccm-apptainer,simulacao,1.383275,OK,diagnostico plotfile gerado
+hpccm-apptainer,mpi,1.534676,OK,diagnostico plotfile gerado
+nativo,importacao,0.211451,OK,
+nativo,simulacao,4.514838,OK,diagnostico plotfile gerado
+nativo,mpi,1.719220,OK,diagnostico plotfile gerado
