@@ -10,8 +10,6 @@ RUN apt-get update && \
     time \
     procps \
     util-linux \
-    python3 \
-    python3-matplotlib \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -m -U -s /bin/bash omp && \
@@ -20,5 +18,7 @@ RUN useradd -m -U -s /bin/bash omp && \
 USER omp
 
 COPY --chown=omp:omp . /lettes
+
+RUN make entradas omp-letters omp-letters-atomic omp-letters-critical omp-letters-ingenua omp-letters-local omp-letters-manual omp-letters-reduction omp-letters-schedule
 
 CMD ["/bin/bash"]
