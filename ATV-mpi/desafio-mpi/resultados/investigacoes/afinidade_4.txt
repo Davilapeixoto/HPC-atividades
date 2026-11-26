@@ -1,0 +1,11 @@
+$ mpirun --report-bindings -np 4 ./mpi-letters-coletivas < entradas/grande.txt > /dev/null
+
+[81a5458c65e0:02269] MCW rank 2 is not bound (or bound to all available processors)
+[81a5458c65e0:02269] MCW rank 3 is not bound (or bound to all available processors)
+[81a5458c65e0:02269] MCW rank 0 is not bound (or bound to all available processors)
+[81a5458c65e0:02269] MCW rank 1 is not bound (or bound to all available processors)
+Execution time 0.237557 s
+Phases 0.043637 0.194024 0.022188 s
+
+Código de saída: 0
+Resultado: OK

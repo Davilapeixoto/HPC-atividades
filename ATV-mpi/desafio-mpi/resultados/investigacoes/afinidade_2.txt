@@ -1,0 +1,9 @@
+$ mpirun --report-bindings -np 2 ./mpi-letters-coletivas < entradas/grande.txt > /dev/null
+
+[81a5458c65e0:02260] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..]
+[81a5458c65e0:02260] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..]
+Execution time 0.422871 s
+Phases 0.040678 0.382174 0.000018 s
+
+Código de saída: 0
+Resultado: OK

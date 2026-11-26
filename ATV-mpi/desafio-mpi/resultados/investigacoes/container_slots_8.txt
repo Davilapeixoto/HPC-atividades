@@ -1,0 +1,13 @@
+$ mpirun -np 8 hostname
+
+81a5458c65e0
+81a5458c65e0
+81a5458c65e0
+81a5458c65e0
+81a5458c65e0
+81a5458c65e0
+81a5458c65e0
+81a5458c65e0
+
+Código de saída: 0
+Resultado: OK

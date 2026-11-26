@@ -1,0 +1,7 @@
+$ mpirun --use-hwthread-cpus --oversubscribe -np 17 ./mpi-letters-coletivas < entradas/grande.txt > /dev/null
+
+Execution time 0.151004 s
+Phases 0.068654 0.095094 0.071176 s
+
+Código de saída: 0
+Resultado: OK

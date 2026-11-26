@@ -1,0 +1,22 @@
+$ mpirun --report-bindings --bind-to core -np 2 ./mpi-letters-coletivas < entradas/grande.txt > /dev/null
+
+--------------------------------------------------------------------------
+WARNING: Open MPI tried to bind a process but failed.  This is a
+warning only; your job will continue, though performance may
+be degraded.
+
+  Local host:        81a5458c65e0
+  Application name:  ./mpi-letters-coletivas
+  Error message:     failed to bind memory
+  Location:          ../../../../../../orte/mca/rtc/hwloc/rtc_hwloc.c:447
+
+--------------------------------------------------------------------------
+[81a5458c65e0:02284] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..]
+[81a5458c65e0:02284] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..]
+Execution time 0.421376 s
+Phases 0.040037 0.381324 0.000996 s
+[81a5458c65e0:02284] 1 more process has sent help message help-orte-odls-default.txt / memory not bound
+[81a5458c65e0:02284] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+
+Código de saída: 0
+Resultado: OK
